@@ -1,6 +1,6 @@
 
 # Databricks notebook source
-CREATE  TABLE IF NOT EXISTS prod_l2.rbkp_hhs
+CREATE  TABLE IF NOT EXISTS prod_l2.foundation.rbkp_hhs
 LOCATION 'abfss://silver@az21p1datalakewe.dfs.core.windows.net/im/L2/Jupiter//BSIK/QVDs/RBKP_HHS'
 COMMENT 'rbkp_hhs';
 
@@ -14,4 +14,4 @@ SET TBLPROPERTIES (
   'pii_data'='no', 
   'primary_source' = 'yes',
   'sox_compliance' = 'no'
-                        ); 
+); 

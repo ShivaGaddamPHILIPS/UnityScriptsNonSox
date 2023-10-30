@@ -1,6 +1,6 @@
 
 # Databricks notebook source
-CREATE  TABLE IF NOT EXISTS prod_l2.t003t_mbp
+CREATE  TABLE IF NOT EXISTS prod_l2.foundation.t003t_mbp
 LOCATION 'abfss://silver@az21p1datalakewe.dfs.core.windows.net/im/L2/Jupiter//BSIK/QVDs/T003T_MBP'
 COMMENT 't003t_mbp';
 
@@ -14,4 +14,4 @@ SET TBLPROPERTIES (
   'pii_data'='no', 
   'primary_source' = 'yes',
   'sox_compliance' = 'no'
-                        ); 
+); 

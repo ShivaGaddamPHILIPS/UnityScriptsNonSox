@@ -1,7 +1,7 @@
 
 # Databricks notebook source
 CREATE  TABLE IF NOT EXISTS prod_l2.foundation.t001_pr1
-LOCATION 'abfss://silver@az21p1datalakewe.dfs.core.windows.net/im/L2/Jupiter//BSIK/QVDs/T001_PR1'
+LOCATION 'abfss://silver@az21p1datalakewe.dfs.core.windows.net/im/L2/Jupiter//POCA/QVDs/T001_PR1'
 COMMENT 't001_pr1';
 
 ALTER TABLE  prod_l2.foundation.t001_pr1

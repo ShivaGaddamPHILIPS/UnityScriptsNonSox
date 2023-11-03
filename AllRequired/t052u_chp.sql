@@ -1,7 +1,7 @@
 
 # Databricks notebook source
 CREATE  TABLE IF NOT EXISTS prod_l2.foundation.t052u_chp
-LOCATION 'abfss://silver@az21p1datalakewe.dfs.core.windows.net/im/L2/Jupiter//BSID/QVDs/T052U_CHP'
+LOCATION 'abfss://silver@az21p1datalakewe.dfs.core.windows.net/im/L2/Jupiter//BSIK/QVDs/T052U_CHP'
 COMMENT 't052u_chp';
 
 ALTER TABLE  prod_l2.foundation.t052u_chp

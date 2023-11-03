@@ -1,7 +1,7 @@
 
 # Databricks notebook source
 CREATE  TABLE IF NOT EXISTS prod_l2.foundation.tcurx_mcp
-LOCATION 'abfss://silver@az21p1datalakewe.dfs.core.windows.net/im/L2/Jupiter//BSID/QVDs/TCURX_MCP'
+LOCATION 'abfss://silver@az21p1datalakewe.dfs.core.windows.net/im/L2/Jupiter//BSIK/QVDs/TCURX_MCP'
 COMMENT 'tcurx_mcp';
 
 ALTER TABLE  prod_l2.foundation.tcurx_mcp
